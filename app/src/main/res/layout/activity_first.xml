@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/football"
+                    android:layout_width="183dp"
+                    android:layout_height="114dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="football picture"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/a" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/EmailPhone"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="71dp"
+                    android:drawableLeft="@drawable/email"
+                    android:gravity="center"
+                    android:hint="Email Id/Phone Number"
+                    android:inputType="textPersonName"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/password"
+                    android:gravity="center"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/loginUser"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:text="Login" />
+
+            <Button
+                android:id="@+id/signUp"
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text=" NOT YET REGISTERED?/SIGNUP" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

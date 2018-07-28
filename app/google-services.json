@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1000225157713",
+    "firebase_url": "https://online-futsal-booking-system.firebaseio.com",
+    "project_id": "online-futsal-booking-system",
+    "storage_bucket": "online-futsal-booking-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000225157713:android:f59c39d7b180ab65",
+        "android_client_info": {
+          "package_name": "com.example.crusarappy.OnlineFutsalBookingSystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000225157713-24k76jn29ig7784arvnv55h582lpoicf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZVzVVbARYqCTTgPRV0kJLGfekoSaJiLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000225157713:android:9d2dbd458f2a623b",
+        "android_client_info": {
+          "package_name": "com.example.crusarappy.intent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000225157713-24k76jn29ig7784arvnv55h582lpoicf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZVzVVbARYqCTTgPRV0kJLGfekoSaJiLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
