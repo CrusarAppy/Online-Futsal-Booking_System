@@ -17,6 +17,9 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 public class FirstActivity extends AppCompatActivity {
 
     private EditText inputEmail, inputPassword;
@@ -34,10 +37,10 @@ public class FirstActivity extends AppCompatActivity {
         inputEmail = (EditText) findViewById(R.id.EmailPhone);
         inputPassword = (EditText) findViewById(R.id.password);
 
-//        if (auth.getCurrentUser() != null) {
-//            startActivity(new Intent(FirstActivity.this, WelcomeHome.class));
-//            finish();
-//        }
+        if (auth.getCurrentUser() != null) {
+            startActivity(new Intent(FirstActivity.this, WelcomeHome.class));
+            finish();
+        }
 
 
         Button next = (Button) findViewById(R.id.signUp);
@@ -63,8 +66,8 @@ public class FirstActivity extends AppCompatActivity {
                     return;
                 }
 
-                if (TextUtils.isEmpty(password)) {
-                    Toast.makeText(getApplicationContext(), "Enter password!", Toast.LENGTH_SHORT).show();
+                if (password.length()<6) {
+                    Toast.makeText(getApplicationContext(), "Enter more than 6 characters!", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -95,6 +98,8 @@ public class FirstActivity extends AppCompatActivity {
             }
         });
     }
+
+
 }
 
 

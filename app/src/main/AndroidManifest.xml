@@ -9,10 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".splashActivity">
-
-        </activity>
-        <activity android:name=".FirstActivity"
+        <activity android:name=".splashActivity" />
+        <activity
+            android:name=".FirstActivity"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,15 +19,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"
-            android:windowSoftInputMode="stateHidden">
-
-        </activity>
-
+        <activity
+            android:name=".SecondActivity"
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".WelcomeHome"
             android:label="@string/title_activity_welcome_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".futsal_list" />
+        <activity android:name=".futsalNearby" />
+        <activity android:name=".Tournament" />
+        <activity android:name=".About_us" />
+        <activity android:name=".PhoneActivity" />
+        <activity android:name=".PhoneCheckActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".BookingActivity" />
+        <activity android:name=".CheckActivity"></activity>
     </application>
 
 </manifest>

@@ -54,9 +54,9 @@
 
                 <EditText
                     android:id="@+id/EmailPhone"
-                    android:layout_width="225dp"
+                    android:layout_width="229dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="71dp"
+                    android:layout_marginLeft="66dp"
                     android:drawableLeft="@drawable/email"
                     android:gravity="center"
                     android:hint="Email Id/Phone Number"

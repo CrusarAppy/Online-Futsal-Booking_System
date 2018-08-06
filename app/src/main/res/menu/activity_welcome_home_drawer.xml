@@ -6,11 +6,11 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/futsal_list"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/list_icon"
             android:title="Futsal List" />
         <item
             android:id="@+id/futsal_nearby"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/nearby"
             android:title="Futsal Nearby" />
         <item
             android:id="@+id/tournaments"
@@ -18,7 +18,7 @@
             android:title="Tournaments" />
         <item
             android:id="@+id/About_us"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/about"
             android:title="About us" />
     </group>
 
